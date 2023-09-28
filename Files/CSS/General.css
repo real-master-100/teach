@@ -1,0 +1,89 @@
+  body
+  {
+    text-indent: 10px;
+    color: black;
+    font-size: 20px;
+    margin-left: 10px;
+    background-color:#aaaaaa;
+  }
+
+  ul 
+  {
+    list-style: none;
+  }
+
+  ul li::before
+  {
+    content: "\2022";
+    color: blue;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.2em;
+    margin-left: -2em;
+  }
+
+  .DIY-br 
+  {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    clear: both;
+  }
+
+  .Code-Example
+  {
+    margin-inline: 5%;
+    border: 5px solid #47E10C;
+    display: inline-block;
+    background-color: #dddddd;
+  }
+
+  button
+  {
+    appearance: none;
+    width: 20%;
+    min-height: 60px;
+    min-width: 240px;
+    background-color: black;
+    border: 2px solid black;
+    color: #FFFFFF;
+    border-radius: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 20px;
+    padding: 16px 24px;
+    text-align: center;
+    touch-action: manipulation;
+  }
+
+  button:hover
+  {  
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.25) 0 10px 20px;
+    transform: translateY(-5px);
+  }
+
+  a > .Home-Button
+  {
+    background-color: rgb(40, 0, 0);
+    border: 2px solid rgb(40, 0, 0);
+    color: #9999ff;
+    appearance: none;
+    position:absolute;
+    top:0;
+    right:0;
+    width: auto;
+    min-height: 30px;
+    min-width: 30px;
+  }
+
+  /* To see division limits
+  div
+  {
+    border: 1px solid rgb(0, 0, 0);
+  }
+  */

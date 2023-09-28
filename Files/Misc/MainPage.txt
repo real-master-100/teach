@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html tutorial</title>
+    <link rel="stylesheet" href="Files/CSS/General.css">
+    <link rel="stylesheet" href="Files/CSS/MainPage.css">
+
+</head>
+
+<body>
+
+    <p id="Welcome-Gif"></p>
+
+    <span class="DIY-br"></span>
+    <p id="first-text">
+        HTML is <u>the</u> standard language for Web pages.
+    </p>
+    <span class="DIY-br"></span>
+
+    <div style="float: right">
+        <a href="Files/Misc/MainPage.txt">
+            <img src="Files/Misc/Right-click.png" alt="img"/>
+        </a>
+    </div>
+    <p>
+        <ul>
+            <li>HTML stands for Hyper Text Markup Language</li>
+            <li>HTML is the standard markup language for creating Web pages</li>
+            <li>HTML describes the structure of a Web page</li>
+            <li>HTML consists of a series of elements</li>
+            <li>HTML elements tell the browser how to display the content</li>
+            <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+        </ul>
+        HTML is at the core of every web page, regardless the complexity of a site or number of technologies involved. 
+        Thanks to this we have unlimited numbers of html examples. For example this site! You can see the html this site contains by a simple 
+        &quotRight-click &gt&gt Page source&quot or you can click to <a href="Files/Misc/MainPage.txt">this</a> for this time.
+    </p>
+    <span class="DIY-br"></span>
+    
+    <div id="Button-Holder">
+        <a href="Introduction.html">
+            <button type="button" id="button-Intro">Introduction</button>
+        </a>
+        <a href="Basics.html">
+            <button type="button" id="button-Basics">Basics</button>
+        </a>
+        <a href="SomeUsefulTags.html">
+            <button type="button" id="button-Tags">Some useful tags</button>
+        </a>
+    </div>
+        
+</body>
+</html>

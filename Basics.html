@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics of HTML</title>
+    <link rel="stylesheet" href="Files/CSS/General.css">
+    <link rel="stylesheet" href="Files/CSS/Basics.css">
+
+</head>
+
+<body>
+    <a href="MainPage.html">
+        <button type="button" class="Home-Button" !importent>Home</button>
+    </a>
+    
+    <p class="Headings">
+        <span style="color: red;">&lt;head&gt;</span>
+        <span class="DIY-br"></span>
+    </p>
+    <p class="Standart-Text">
+        The <span style="color: #964b00;">&lt;head&gt;</span> element is a container for metadata (data about data) and is placed between the <span style="color: #964b00;">&lt;html&gt;</span> tag and the <span style="color: #964b00;">&lt;body&gt;</span> tag.
+        Metadata is data about the HTML document. Metadata is not displayed.
+        Metadata typically define the document title, character set, styles, scripts, and other meta information.
+        The following elements can go inside the <span style="color: #964b00;">&lt;head&gt;</span> element:
+        <ul>
+            <li><a href="Files/Misc/WorkInProgress.html">&lt;title&gt;</a> (required in every HTML document)</li>
+            <li><a href="Files/Misc/WorkInProgress.html">&lt;style&gt;</a></li>
+            <li><a href="Files/Misc/WorkInProgress.html">&lt;base&gt;</a></li>
+            <li><a href="Files/Misc/WorkInProgress.html">&lt;link&gt;</a></li>
+            <li><a href="Files/Misc/WorkInProgress.html">&lt;meta&gt;</a></li>
+            <li><a href="Files/Misc/WorkInProgress.html">&lt;script&gt;</a></li>
+            <li><a href="Files/Misc/WorkInProgress.html">&lt;noscript&gt;</a></li>
+        </ul>
+    </p>
+    
+    <p class="Headings">
+        <span style="color: red;">&lt;img src&gt;</span>
+        <span class="DIY-br"></span>
+    </p> 
+        
+    <p class="Standart-Text">
+        The required src attribute specifies the URL of the image.
+        There are two ways to specify the URL in the src attribute:<br>
+        <strong>1. Absolute URL</strong> - Links to an external image that is hosted on another website. Example: <span style="color: purple;">src</span><span style="color: green;">="https://www.w3schools.com/images/img_girl.jpg"</span>.<br>
+        <strong>2. Relative URL</strong> - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, 
+        it will be relative to the current page. Example: <span style="color: purple;">src</span><span style="color: green;">="img_girl.jpg"</span>. If the URL begins with a slash, it will be relative to the domain. Example: <span style="color: purple;">src</span><span style="color: green;">="/images/img_girl.jpg"</span>.
+    </p>
+    <div class="Code-Example">  
+        <code>
+            <pre>
+  &lt;<span style="color: #964b00;">img</span> <span style="color: purple;">src</span>=&quothttps://tpucdn.com/gpu-specs/images/b/4724-front.jpg&quot <span style="color: purple;">alt</span>=&quotGirl in a jacket&quot <span style="color: purple;">width</span>=&quot500&quot <span style="color: purple;">height</span>=&quot600&quot&gt;  
+</pre>
+        </code>
+    </div>
+      
+ 
+    
+    <p class="Headings">
+        <span style="color: red;">&lt;hr&gt;</span>
+        <span class="DIY-br"></span>
+    </p>
+    <p class="Standart-Text">
+        The <span style="color: #964b00;">&lt;hr&gt;</span> tag defines a thematic break in an HTML page (e.g. a shift of topic).
+        The <span style="color: #964b00;">&lt;hr&gt;</span> element is most often displayed as a horizontal rule that is used to separate content (or define a change) in an HTML page.
+    </p>
+    <div class="Code-Example">  
+        <code>
+            <pre>
+    <span style="color: #964b00;">&lt;html&gt;</span>
+        <span style="color: #964b00;">&lt;body&gt;</span>
+            <span style="color: #964b00;">&lt;h1&gt;</span>
+                The Main Languages of the Web
+            <span style="color: #964b00;">&lt;/h1&gt;</span>
+            <span style="color: #964b00;">&lt;p&gt;</span>
+                HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web 
+                page, and consists of a series of elements. HTML elements tell the browser how to display the content.
+            <span style="color: #964b00;">&lt;/p&gt;</span>
+                <span style="color: #964b00;">&lt;hr&gt;</span>
+            <span style="color: #964b00;">&lt;p&gt;</span>
+                CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other 
+                media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.
+            <span style="color: #964b00;">&lt;/p&gt;</span>
+                <span style="color: #964b00;">&lt;hr&gt;</span>
+            <span style="color: #964b00;">&lt;p&gt;</span>
+                JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and 
+                attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.
+            <span style="color: #964b00;">&lt;/p&gt;</span>
+        <span style="color: #964b00;">&lt;/body&gt;</span>
+    <span style="color: #964b00;">&lt;/html&gt;</span>
+</pre>
+        </code>
+    </div>
+    <div style="display: block;">
+        <a href="Files/Misc/ExampleSite2.html" style="display: inline-block;">
+            <button type="button">Click to run the site!</button>
+        </a>
+    </div>
+
+</body>
+</html>
